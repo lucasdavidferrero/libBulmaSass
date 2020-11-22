@@ -1,0 +1,1 @@
+import globalSass from './sass/global.scss';

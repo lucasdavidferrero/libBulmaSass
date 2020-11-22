@@ -1,0 +1,22 @@
+/* General utilities goes here. */
+
+/* Layout related utilities */
+.flow-content > * + * {
+    margin-top: $flow-space;
+}
+.container {
+    padding: $gutter;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    @media(min-width: $break-small) {
+        padding: $gutter 0;
+        width: 80%;
+    }
+    @media(min-width: $break-medium) {
+        width: 70%;
+    }
+    @media(min-width: $break-large) {
+        width: 60%;
+    }
+}

@@ -1,0 +1,27 @@
+/* Global Variables */
+
+$base-font: 'Roboto', sans-serif;
+
+// Colors
+$clr-accent: #F5C653;
+$clr-warning: #F5BD50;
+$clr-danger: #DE5769;
+$clr-success: #9FF098;
+$clr-link: #638CF5;
+$clr-info: #5358F5;
+$clr-light: hsl(0, 0%, 96%);
+$clr-dark: hsl(0, 0%, 21%);
+
+$bg-body:hsl(0, 0%, 96%);
+$body-fs: 1em; // font-size
+$body-line-h: 1.6;
+
+//layout
+$flow-space: 1rem;
+
+// Breakpoints
+$gutter: 1rem;
+$break-xsmall: 769px;
+$break-small: 960px;
+$break-medium: 1152px;
+$break-large: 1344px;
