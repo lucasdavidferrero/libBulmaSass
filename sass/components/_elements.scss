@@ -1,0 +1,20 @@
+// Elements are used with any component.
+
+.loader {
+    @include loader;
+    border-width: 3px;
+    border-color: transparent transparent findColorInvert($clr-accent) findColorInvert($clr-accent);
+}
+
+.delete {
+    @include delete;
+}
+
+.hamburger {
+    @include hamburger(50px);
+    
+    span {
+        height: 2px;
+    }
+    
+}

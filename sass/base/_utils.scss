@@ -41,9 +41,10 @@
     }
 }
 
+// Colors utilities
 [class*="bg-"] {
     background-color: var(--background-bg);
-    color: var(--foreground-bg)
+    color: var(--foreground-bg);
 }
 .bg-dark {
     --background-bg: #{$clr-dark};
