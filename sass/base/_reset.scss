@@ -5,6 +5,12 @@
 body {
     min-height: 100vh;
 }
+
+*::selection {
+    background-color: $clr-accent;
+    color: findColorInvert($clr-accent);
+}
+
 h1, .h1
 h2, .h2
 h3, .h3

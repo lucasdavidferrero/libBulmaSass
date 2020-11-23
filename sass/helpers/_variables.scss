@@ -3,23 +3,24 @@
 $base-font: 'Roboto', sans-serif;
 
 // Colors
-$clr-accent: #F5C653;
+$clr-accent: #E6E497; // Primary color
 $clr-warning: #F5BD50;
 $clr-danger: #DE5769;
 $clr-success: #9FF098;
 $clr-link: #638CF5;
 $clr-info: #5358F5;
 $clr-light: hsl(0, 0%, 96%);
+$clr-white: #ffff;
 $clr-dark: hsl(0, 0%, 21%);
 
 $bg-body:hsl(0, 0%, 96%);
 $body-fs: 1em; // font-size
 $body-line-h: 1.6;
-$clr-text: hsl(0, 0%, 29%);
+$clr-text: $clr-dark;
 
 //layout
 $flow-space: 1rem;
-$pad: 1rem;
+$pad: 1rem; // usar para padding en components.
 
 // Breakpoints
 $gutter: 1rem;
