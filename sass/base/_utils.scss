@@ -4,6 +4,9 @@
 .flow-content > * + * {
     margin-top: $flow-space;
 }
+.flow-content-large > * + * {
+    margin-top: calc(flow-space * 2);
+}
 .container {
     padding: $gutter;
     max-width: 1500px;
@@ -18,5 +21,22 @@
     }
     @media(min-width: $break-large) {
         width: 60%;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.flex > * + * {
+    margin: ($flow-space * 2) 0 0 0;
+}
+@media (min-width: $break-medium) {
+    .flex {
+      flex-direction: row;
+    }
+
+    .flex > * + * {
+      margin: 0 0 0 $flow-space;
     }
 }
